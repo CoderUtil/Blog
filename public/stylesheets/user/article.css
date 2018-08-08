@@ -1,0 +1,147 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 247, 249);
+}
+
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {   
+  outline: none;   
+  border-color: transparent;    
+  box-shadow:none;
+}
+
+li {
+  float: right;
+  
+}
+
+.nav-tabs {
+  width: 100%;
+}
+
+#home, #write, #manage, #exit, #draftAndCollect{
+  width: 127px;
+  float: right;
+}
+
+.glyphicon-off, .glyphicon-th-list, .glyphicon-pencil, .glyphicon-home, .glyphicon-user, .glyphicon-folder-open {
+  margin-right: 8px;
+}
+
+#article {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#main{
+  height: 100%;
+  padding-top: 60px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+#boxOfMyTemplate {
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: Arial, Verdana, Sans-serif;
+}
+
+#dateAndClass {
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+  font-family: Arial, Verdana, Sans-serif;
+}
+
+#date {
+  margin-right: 15px;
+}
+
+.glyphicon-calendar, .glyphicon-tags {
+  margin-right: 6px;
+}
+
+#content {
+  text-align: left;
+  margin-top: 40px;
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: 15px;
+}
+
+hr {
+  border: 1px solid #555555;
+  opacity: 0.4;
+  width: 100%;
+}
+
+#lastAndNext {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+}
+
+#last, #next {
+  height: 30px;
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+#last {
+  float: left;
+}
+
+#last:hover {
+  opacity: 0.7;
+}
+
+#next {
+  float: right;
+}
+
+#next:hover {
+  opacity: 0.7;
+}
+
+#leftLink, #rightLink {
+  display: inline-block;
+  vertical-align:middle;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+#leftLink {
+  margin-left: 5px;
+}
+
+#rightLink {
+  margin-right: 5px;
+}
+
+#leftLink:hover, #rightLink:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#leftDash, #rightDash {
+  vertical-align:middle;
+}

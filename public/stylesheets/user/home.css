@@ -1,0 +1,161 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 247, 249);
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {   
+  outline: none;   
+  border-color: transparent;    
+  box-shadow:none;
+}
+
+li {
+  float: right;
+  
+}
+
+.nav-tabs {
+  width: 100%;
+}
+
+#home, #write, #manage, #exit, #draftAndCollect{
+  width: 127px;
+  float: right;
+}
+
+.glyphicon-off, .glyphicon-th-list, .glyphicon-pencil, .glyphicon-home, .glyphicon-user, .glyphicon-folder-open {
+  margin-right: 8px;
+}
+
+#boxOfMyTemplate {
+  float: left;
+  width: 40%;
+  margin-left: 30%;
+  background-color:white;
+}
+
+#myArticle {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#myTitle {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Arial, Verdana, Sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+#myDateAndClass {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: grey;
+  font-family: Arial, Verdana, Sans-serif;
+}
+
+#myDate {
+  margin-right: 15px;
+}
+
+.glyphicon-calendar, .glyphicon-tags {
+  margin-right: 6px;
+}
+
+#myContent {
+  margin-top: 40px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  font-family: Arial, Verdana, Sans-serif;
+}
+
+#myRead {
+  margin-top: 80px;
+  border: none;
+  outline:none;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+#myRead:hover {
+  opacity: 0.7;
+}
+
+button>a {
+  text-decoration: none;
+  color: white;
+}
+
+button>a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  margin-top: 60px;
+  border: 1px solid #555555;
+  opacity: 0.4;
+  width: 150px;
+}
+
+#boxOfAllTemplate{
+  margin-top: 60px;
+  margin-right: 10%;
+  margin-left: 5%;
+  width: 15%;
+  border: 1px solid black;
+  background-color:white;
+  height: 500px;
+  position: fixed;
+}
+
+#article {
+  text-align: center;
+}
+
+#title {
+  height: 20px;
+  text-align: center;
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+#username {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 25px;
+}
+
+#hr {
+  margin-top: 20px;
+}
+
+h2>a {
+  text-decoration: none;
+  color: black;
+}
+
+h2>a:hover {
+  text-decoration: none;
+  color: black;
+}

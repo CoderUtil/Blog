@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='content-Type' content='text/html;charset=utf-8'>
+    <script src='/javascripts/jquery-3.2.1.min.js' type='text/javascript'></script>
+    <link href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
+    <script src='https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="/javascripts/handlebars-v4.0.11.js" type="text/javascript"></script>
+    <script type='text/javascript' src='/javascripts/user/article.js'></script>
+    <link rel='stylesheet' href='/stylesheets/user/article.css' type='text/css'/>
+    <title>Article</title>      
+  </head>
+  <body>
+    <ul class='nav nav-tabs'>  
+      <li id='exit'>
+        <a href='/{{username}}/exit'><span class='glyphicon glyphicon-off'></span>退出</a>
+      </li>
+      <li id='draftAndCollect'>
+        <a href='/{{username}}/draftAndCollect'><span class='glyphicon glyphicon-folder-open'></span>草稿和收藏</a>
+      </li>
+      <li id='manage'>
+        <a href='/{{username}}/manage'><span class='glyphicon glyphicon-th-list'></span>文章管理</a>
+      </li> 
+      <li id='write'>
+        <a href='/{{username}}/write'><span class='glyphicon glyphicon-pencil'></span>写文章</a>
+      </li> 
+      <li id='home'>
+        <a href='/{{username}}/home'><span class='glyphicon glyphicon-home'></span>首页</a>
+      </li>
+    </ul>
+    <div id="main">
+      <div id='article'>
+        <h1 id='title'>{{title}}</h1>
+        <div id="boxOfMyTemplate"> 
+          <script type="text/x-handlebars-template" id="myTemplate">
+            <div id='dateAndClass'>
+              <span id='date'><span class='glyphicon glyphicon-calendar'></span>\{{date}}</span>
+              <span id='classification'><span class='glyphicon glyphicon-tags'></span>\{{classification}}</span>
+            </div>
+            <p id='content'>\{{content}}</p>
+          </script>
+      </div>
+    </div>
+    </div>
+    <div id='lastAndNext'>
+      <span id='last'><span id='leftDash' class='glyphicon'></span><a id='leftLink'></a></span><span id='next'><a id='rightLink'></a><span id='rightDash' class='glyphicon'></span></span>
+    </div>
+  </body>
+</html>

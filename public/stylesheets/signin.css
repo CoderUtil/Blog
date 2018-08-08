@@ -1,0 +1,181 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url(/images/background.jpg);
+  background-size: 100% 100%;
+}
+
+#centerPosition {
+  position: relative;
+  height: 250px;
+  width: 430px;
+  margin: 0 auto;
+  padding: 0;
+  top: 100px;
+  font-family: Arial, Verdana, Sans-serif;
+}
+
+#title {
+  margin-bottom: 20px;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: 40px;
+  opacity: 0.8;
+  color: rgb(236, 232, 231);
+}
+
+form {
+  width: 410px;
+  height: 180px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.inputBackground {
+  margin-left: 60px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 310px;
+  transition-duration: 0.4s;
+}
+
+.inputBackground:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.glyphicon-user, .glyphicon-lock {
+  display: inline-block;
+  height: 29px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+#username, #password {
+  margin-top: 5px;
+  width: 235px;
+  height: 29px;
+  border: none;
+  background-color: transparent;
+  outline:none;
+}
+
+::-webkit-input-placeholder { 
+  color: grey;
+}
+
+.glyphicon-ok {
+  position: relative;
+  left: 40px;
+  visibility: hidden;
+}
+
+.glyphicon-remove {
+  position: relative;
+  left: 28px;
+  visibility: hidden;
+}
+
+#usernameResult, #passwordResult, #captchaResult {
+  height: 25px;
+  margin: 0 auto;
+  position: relative;
+  left: -100px;
+  text-align: center;
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: 14px;
+  color: grey;
+}
+
+#usernameResult {
+  top: -135px;
+}
+
+#passwordResult {
+  top: -90px;
+}
+
+#captchaResult {
+  top: -50px;
+}
+
+#captchaBackground {
+  margin-left: 60px;
+  margin-top: 30px;
+  width: 310px;
+}
+
+#inputCaptcha {
+  display: inline-block;
+  width: 130px;
+  height: 36px;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-color: transparent;
+  outline:none;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+#inputCaptcha:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+input {
+  color: rgb(189, 187, 190);
+  font-size: 15px;
+}
+
+#captcha {
+  transition-duration: 0.4s;
+}
+
+#captcha:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+}
+
+#submit {
+  margin-top: 32px;
+  margin-left: 65px;
+  border-radius: 5px;
+  background-color: rgb(0, 150, 229);
+  height: 33px;
+  width: 300px;
+  color: rgb(236, 232, 231);
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
+#submit:hover {
+  opacity: 1;
+}
+
+#regist {
+  text-decoration: none;
+  position: relative;
+  top: -5px;
+  left: 240px;
+  color: rgb(236, 232, 231);
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
+#regist:hover {
+  opacity: 1;
+}

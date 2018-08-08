@@ -1,0 +1,177 @@
+html,body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 247, 249);
+  }
+  
+  button {
+    outline: none;
+  }
+  
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {   
+    outline: none;   
+    border-color: transparent;    
+    box-shadow:none;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  .nav-tabs {
+    width: 100%;
+  }
+  
+  #home, #write, #manage, #exit, #draftAndCollect{
+    width: 127px;
+    float: right;
+  }
+  
+  .glyphicon-off, .glyphicon-th-list, .glyphicon-pencil, .glyphicon-home, .glyphicon-user, .glyphicon-folder-open {
+    margin-right: 8px;
+  }
+  
+  #main { 
+    height: 600px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  #left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    color: rgb(195, 195, 195);
+    border-radius: 8px 0 0 8px;
+    border-right: 2px solid rgb(195, 195, 195);
+  }
+
+  #right {
+    float: left;
+    margin-left: 8%;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  #collect, #draft {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 40px;
+    transition-duration: 0.4s;
+    opacity: 0.7;
+  }
+  
+  #collect:hover, #draft:hover {
+    opacity: 1;
+  }
+  
+  .main .glyphicon-heart, .main .glyphicon-pencil {
+    margin: 10px;
+    color: black;
+  }
+  
+  
+  #hrLeft {
+    margin-top: 20px;
+    border: 1px solid rgb(195, 195, 195);
+    opacity: 0.4;
+    width: 150px;
+  }
+  
+  .collect>a, .draft>a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .collect>a:hover.draft>a:hover {
+    text-decoration: none;
+    color: red;
+  }
+
+  #title>a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #title>a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #hrRight {
+    border: 1px solid rgb(195, 195, 195);
+    opacity: 0.4;
+    width: 450px;
+  }
+  
+  #articleBackground {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+  }
+  
+  #title {
+    margin-right: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .delete {
+    margin-right: 20px; 
+  }
+
+  .look {
+    margin-right: 15px; 
+  }
+  
+  .modal-content {
+    margin-left: 80px;
+  }
+  
+  .buttonBackground {
+    position: relative;
+    left: 505px;
+    top: -10px;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border: 1px solid grey;
+    background-color: white;
+    transition-duration: 0.4s;
+  }
+  
+  .buttonBackground:hover {
+    transform: scale(1.2);
+    opacity: 0.7s;
+  }
+  
+  .modal-body {
+    width: 500px;
+  }
+  
+  .close > span {
+    position: relative;
+    left: -3px;
+  }
+  
+  #sureDelete {
+    float: right;
+  }
+  
+  .activeTag {
+    border: 2px solid black;
+  }
+  

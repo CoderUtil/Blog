@@ -1,0 +1,185 @@
+html,body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 247, 249);
+}
+
+button {
+  outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {   
+  outline: none;   
+  border-color: transparent;    
+  box-shadow:none;
+}
+
+li {
+  float: right;
+}
+
+.nav-tabs {
+  width: 100%;
+}
+
+#home, #write, #manage, #exit, #draftAndCollect{
+  width: 127px;
+  float: right;
+}
+
+.glyphicon-off, .glyphicon-th-list, .glyphicon-pencil, .glyphicon-home, .glyphicon-user, .glyphicon-folder-open {
+  margin-right: 8px;
+}
+
+#main { 
+  height: 600px;
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.main {
+  visibility: hidden;
+}
+
+#left {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  color: rgb(195, 195, 195);
+  border-radius: 8px 0 0 8px;
+  border-right: 2px solid rgb(195, 195, 195);
+}
+
+#right {
+  float: left;
+  margin-left: 8%;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+}
+
+#classificationBackground {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  transition-duration: 0.4s;
+  opacity: 0.7;
+}
+
+#classificationBackground:hover {
+  opacity: 1;
+}
+
+.glyphicon-tags {
+  margin: 10px;
+  color: black;
+}
+
+
+#hrLeft {
+  margin-top: 20px;
+  border: 1px solid rgb(195, 195, 195);
+  opacity: 0.4;
+  width: 150px;
+}
+
+.classification>a {
+  text-decoration: none;
+  color: black;
+}
+
+.classification>a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+#title>a {
+  text-decoration: none;
+  color: black;
+}
+
+#title>a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#hrRight {
+  border: 1px solid rgb(195, 195, 195);
+  opacity: 0.4;
+  width: 450px;
+}
+
+#articleBackground {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+#title {
+  margin-right: 40px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 100px;
+}
+
+#date {
+  display: inline-block;
+  width: 85px;
+  margin-right: 40px;
+}
+
+.delete {
+  margin-right: 20px; 
+}
+
+.modify {
+  margin-right: 15px; 
+}
+
+.modal-content {
+  margin-left: 80px;
+}
+
+.buttonBackground {
+  position: relative;
+  left: 505px;
+  top: -10px;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  border: 1px solid grey;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+
+.buttonBackground:hover {
+  transform: scale(1.2);
+  opacity: 0.7s;
+}
+
+.modal-body {
+  width: 500px;
+}
+
+.close > span {
+  position: relative;
+  left: -3px;
+}
+
+#sureDelete {
+  float: right;
+}
+
+.activeClassification {
+  border: 2px solid black;
+}
